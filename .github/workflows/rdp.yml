@@ -9,7 +9,7 @@ runs-on: windows-latest
 
 steps:
 - name: Download
-run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+run: Invoke-WebRequest https://drive.google.com/file/d/1FFFE7trILnoqOMQ_o9yncFuo4VETKoLX/view?usp=sharing -OutFile ngrok.zip
 - name: Extract
 run: Expand-Archive ngrok.zip
 - name: Auth
